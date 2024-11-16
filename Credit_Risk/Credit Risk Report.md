@@ -30,3 +30,5 @@ In this section, describe the analysis you completed for the machine learning mo
 ## Summary
 
 The model have a perfect precision and recall on identifying the healthy loan, but the precision on identifying the high-risk loan has place to improvement, mainly by increasing the database on this category, since the imbalance dataset (610 vs. 18,774 healthy loans) affects the model's ability to generalize.
+
+I wouldn't recommed this model, because, using the current model without improving the dataset could lead to significant business risks, as accurately identifying high-risk loans is critical. The dataset's imbalance and the relatively lower precision for high-risk loans indicate the need for improvement before relying on the model. 
